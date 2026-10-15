@@ -1,0 +1,13 @@
+<mvc:View controllerName="com.akshayksaroj.learnings.bookmark.controller.bookmark"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <content>
+    <Button 
+     text="OpenBookMark Dailog"
+     icon="sap-icon://add-favorite"
+     press=".onOpenBookMarkDailog"
+    ></Button>
+    </content>
+    </Page>
+</mvc:View>
